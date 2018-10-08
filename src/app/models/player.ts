@@ -1,6 +1,8 @@
+import { Color } from "./stone";
+
 export class Player {
     id: number;
-    color: string;
+    color: Color;
     score: number;
 
     constructor(json: Object = {}) {
