@@ -88,7 +88,7 @@
             "browserTarget": "TAK-angular-node:build"
           }
         },
-        "lint": {
+       "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
